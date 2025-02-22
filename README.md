@@ -31,7 +31,7 @@ https://pan.baidu.com/s/1NzLtoPl-1i77_JSinSKoXw?pwd=zbez
 ### Implementation
 
 #### Testing
-Run `Test_All\test.py` and `Test_All\test_PRC.py` for testing the model using `greedy search` and `parallel random reconstruction`, respectively.
+Run `Test_All\test.py` and `Test_All\test_PRC.py` to test the model using `greedy search` and `parallel random reconstruction`, respectively.
 
 #### Training
 
