@@ -1,1 +1,1 @@
-Download the pre-trained models here from the link provided.
+Download the pre-trained TSP models here from the link provided.
