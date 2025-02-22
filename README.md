@@ -16,7 +16,6 @@ torchaudio==0.12.1
 torchvision==0.13.1
 tqdm==4.64.1
 ```
-We don't use any hard-to-install packages. 
 If any package is missing, just install it following the prompts.
 
 ### Datasets and pre-trained models
