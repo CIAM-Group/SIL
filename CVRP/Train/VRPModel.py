@@ -239,7 +239,6 @@ class CVRP_Decoder(nn.Module):
 
             left_encoded_node_2 = k_nearest_point.clone().detach()
 
-        print(left_encoded_node_2.shape)
 
         remaining_capacity = remaining_capacity.reshape(batch_size_V,1,1)/capacity
         first_node_cat = torch.cat((embedded_first_node,remaining_capacity), dim=2)
