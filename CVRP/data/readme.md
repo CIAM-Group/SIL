@@ -1,1 +1,1 @@
-Download the datasets here using the links provided
+Download the datasets here from the link provided.
