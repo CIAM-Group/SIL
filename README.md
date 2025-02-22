@@ -1,8 +1,10 @@
 ```
-@inproceedings{luo2023neural,
-  title={Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization},
-  author={Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang},
-  booktitle={The 37th Anniversary Conference on Neural Information Processing Systems, NeurIPS 2023},
-  year={2023}
+@inproceedings{
+luo2025boosting,
+title={Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems},
+author={Fu Luo and Xi Lin and Yaoxin Wu and Zhenkun Wang and Tong Xialiang and Mingxuan Yuan and Qingfu Zhang},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=TbTJJNjumY}
 }
 ```
