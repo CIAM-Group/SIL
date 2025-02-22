@@ -31,14 +31,15 @@ https://pan.baidu.com/s/18inZgyeOr553FeRHtwOk-w?pwd=zy9p
 
 ### Implementation
 
-##### Testing
+#### Testing
 Run `Test_All\test.py` and `Test_All\test_PRC.py` for testing the model using `greedy search` and `parallel random reconstruction`, respectively.
 
-##### Training
+#### Training
 
 To train the model, run `Train\Train.train.py`. This file contains parameters you can modify. Some instructions on the training process are provided.
 
-##Citation
+
+## Citation
 
 **If this repository is helpful for your research, please cite our paper:<br />**
 *"Fu Luo, Xi Lin, Yaoxin Wu, Zhenkun Wang, Tong Xialiang, Mingxuan Yuan, and Qingfu Zhang, Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems, The Thirteenth International Conference on Learning Representations, ICLR 2025" <br />*
