@@ -223,11 +223,11 @@ if __name__ == "__main__":
 
     ''' 1. if no pre-trained model, and no labels: 
             first_time_repair=True, repair_before_train=True;
-        2. if pre-trained model is obtained, and no labels / labels needed to be refined,
+        2. if pre-trained model is provided, and no labels / labels needed to be refined,
             first_time_repair=False, repair_before_train=True;
         3. if no pre-trained model, and labels are obtained: 
             first_time_repair=True, repair_before_train=False;
-        4. if both pre-trained model and labels are obtained, and the labels are not needed to be refined,
+        4. if both pre-trained model and labels are provided, and the labels are not needed to be refined,
            first_time_repair=False, repair_before_train=False. '''
 
     first_time_repair = True
