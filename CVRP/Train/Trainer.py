@@ -338,7 +338,7 @@ class VRP_Self_Improver():
                 loss_mean = loss_node
                 self.model.zero_grad()
                 loss_mean.backward()
-                # nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=10.0, norm_type=2)
+                nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=10.0, norm_type=2)
                 self.optimizer.step()
 
             current_step += 1
