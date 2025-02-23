@@ -136,7 +136,7 @@ def main(epoch, path, problem_sizes, eposides, train_batch_sizes, repair_batch_s
                                   f'/repaired_data{problem_sizes[0]}.pt',
                                   f'/repaired_data_solution{problem_sizes[0]}.pt']
 
-    # Optionmal. When using greedy search for validation on instances of size 50000/100000,
+    # Optional. When using greedy search for validation on instances of size 50000/100000,
     # it takes a lot of time. To avoid this, we limit the number of input nodes to 10000.
 
     if problem_sizes[0] >= 10000:
