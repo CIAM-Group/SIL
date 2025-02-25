@@ -221,11 +221,11 @@ if __name__ == "__main__":
     improve_iterations = paras[problem_sizes[0]][3]
 
     ''' 1. if no pre-trained model, and no labels: 
-            first_time_repair=True, repair_before_train=True, RI_initial = True
-        2. if pre-trained model is provided, and labels / labels needed to be refined,
-            first_time_repair=False, repair_before_train=True, RI_initial = False
-        3. if both pre-trained model and labels are provided, and the labels are not needed to be refined,
-           first_time_repair=False, repair_before_train=False, RI_initial = False '''
+            set first_time_repair=True, repair_before_train=True, RI_initial = True
+        2. if pre-trained model is provided, and labels / labels needed to be refined:
+            set first_time_repair=False, repair_before_train=True, RI_initial = False
+        3. if both pre-trained model and labels are provided, and the labels are not needed to be refined:
+            set first_time_repair=False, repair_before_train=False, RI_initial = False '''
 
     first_time_repair = True
     repair_before_train = True
