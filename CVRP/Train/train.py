@@ -181,13 +181,13 @@ if __name__ == "__main__":
         The subsequent training process remains the same. '''
     paras = {
         # meaning:
-        # problem_size: [dataset_size, train_batch_size, repair_batch_size, budget, improve_iterations]
+        # problem_size: [dataset_size, train_batch_size, repair_batch_size, improve_iterations]
         # 100: [1000000, 1024, 1024, 5],
         1000: [20000, 256, 256, 8],
         5000: [200, 32, 32, 8],
         10000: [200, 32, 32, 8],
-        50000: [100, 32, 32, 8],
-        100000: [100, 16, 16, 8],
+        50000: [100, 32, 16, 8],
+        100000: [100, 16, 8, 8],
     }
 
     validation_sets = {
