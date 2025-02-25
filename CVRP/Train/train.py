@@ -191,7 +191,7 @@ if __name__ == "__main__":
     }
 
     validation_sets = {
-        # 100: [b2 + "/data/validation_set/validation_TSP100_n10000.txt", 10000, 2000],
+        # 100: [b2 + "/data/validation_set/validation_cvrp100_lkh3_n10000_C50.txt", 10000, 2000],
         1000: [b2 + "/data/validation_set/validation_cvrp1000_n128_C250.txt", 128, 32],
         5000: [b2 + "/data/validation_set/validation_cvrp5000_n16_C500.txt", 16, 16],
         10000: [b2 + "/data/validation_set/validation_cvrp10000_n16_C1000.txt", 16, 16],
