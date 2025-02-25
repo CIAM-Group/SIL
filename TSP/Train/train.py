@@ -112,7 +112,7 @@ logger_params = {
 
 def main(epoch, path, problem_sizes, eposides, train_batch_sizes, repair_batch_size,
          improve_iterations, budget, max_subtour_length, repair_max_sub_length,
-         first_time_repair, repair_before_train, epoch_itervel, validation_sets):
+         first_time_repair, repair_before_train, epoch_itervel, validation_sets, RI_initial):
     logger_params['log_file']['desc'] = f'train_by_SIL_TSP{problem_sizes[0]}'
 
     tester_params['model_load'] = {
@@ -128,7 +128,7 @@ def main(epoch, path, problem_sizes, eposides, train_batch_sizes, repair_batch_s
     trainer_params['repair_before_train'] = repair_before_train
     trainer_params['improve_iterations'] = improve_iterations
     trainer_params['epoch_itervel'] = epoch_itervel
-
+    env_params['RI_initial'] = RI_initial
     env_params['budget'] = budget
     env_params['max_subtour_length'] = max_subtour_length
     env_params['repair_max_sub_length'] = repair_max_sub_length
@@ -234,4 +234,4 @@ if __name__ == "__main__":
 
     main(epoch, path, problem_sizes, eposides, train_batch_sizes, repair_batch_size,
          improve_iterations, budget, max_subtour_length, repair_max_sub_length,
-         first_time_repair, repair_before_train, epoch_itervel, validation_sets)
+         first_time_repair, repair_before_train, epoch_itervel, validation_sets, RI_initial)
