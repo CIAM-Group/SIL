@@ -2,7 +2,7 @@
 
 ## [ICLR 2025] Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems
 
-This repository contains the code implementation of paper [Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems](https://openreview.net/forum?id=TbTJJNjumY). In this paper, we propose a lightweight cross-attention mechanism with linear complexity, by which a Transformer network is developed to learn efficient and favorable solutions for large-scale VRPs. We also propose a Self-Improved Training (SIT) algorithm that enables direct model training on large-scale VRP instances, bypassing extensive computational overhead for attaining labels. 
+This repository contains the code implementation of paper [Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems](https://openreview.net/pdf?id=TbTJJNjumY). In this paper, we propose a lightweight cross-attention mechanism with linear complexity, by which a Transformer network is developed to learn efficient and favorable solutions for large-scale VRPs. We also propose a Self-Improved Training (SIT) algorithm that enables direct model training on large-scale VRP instances, bypassing extensive computational overhead for attaining labels. 
 
 ### 1. Dependencies
 ```bash
