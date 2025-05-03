@@ -843,8 +843,12 @@ class VRPEnv:
         times = 2  # if OOM appears due to this method, change the value of 'times' to the batch size.
         batch_size = solution.shape[0]
         for i in range(times):
-            begin_ = int(batch_size / times) * i
-            end_ = int(batch_size / times) * (i + 1)
+            if batch_size==1:
+                begin_ = 0
+                end_ = 1
+            else:
+                begin_ = int(batch_size / times) * i
+                end_ = int(batch_size / times) * (i + 1)
             solution_tmp[begin_:end_] = self.Rearrange_solution_clockwise(
                 problem_tmp[begin_:end_], solution_tmp[begin_:end_])
 
